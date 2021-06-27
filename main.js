@@ -7,7 +7,7 @@ rightWristX = 0;
 function setup(){
     video = createCapture(VIDEO);
     video.size(550, 500);
-    video.position(350, 150)
+    video.position(350, 150);
 
     canvas = createCanvas(550, 550);
     canvas.position(950, 150);
@@ -18,6 +18,7 @@ function setup(){
 }
 
 function draw(){
+    background('#c7e4ff');
     textSize(difference);
     text('Joseph', noseX, noseY);
 }
